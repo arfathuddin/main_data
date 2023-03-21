@@ -1,0 +1,96 @@
+    1  ls
+    2  cd Desktop/
+    3  ls
+    4  cd git_test/
+    5  git init
+    6  ls
+    7  git status
+    8  git add
+    9  cat mamba
+   10  clear
+   11  clear
+   12  ls
+   13  cat mamba
+   14  clear
+   15  cat mamba
+   16  vi mamba
+   17  ls
+   18  git status
+   19  git add .
+   20  git status
+   21  git commit -m "my first commit form mamba"
+   22  clear
+   23  git config --global user.email "arfathuddin27@hotmail.com"
+   24  ls
+   25  git status
+   26  git commit -m "my first commit form mamba"
+   27  ls
+   28  clear
+   29  git status
+   30  ls
+   31  git commit -m "my first commit form mamba"
+   32  git log
+   33  git show 6cbdccf59
+   34  git remote add origin https://github.com/arfathuddin/main_data.git
+   35  ls
+   36  git push -u origin master
+   37  ls
+   38  git status
+   39  vi bash.sh
+   40  git statud
+   41  git status
+   42  git add .
+   43  git status
+   44  git commit -m "my first commit form bash"
+   45  git logs
+   46  git log
+   47  git show beec74ef12f
+   48  git push -u origin master
+   49  clear
+   50  git branch
+   51  git branch branch1
+   52  ls
+   53  git branch
+   54  git checkout branch1
+   55  ls
+   56  git log --oneline
+   57  vi branch1f.sh
+   58  ls
+   59  git log --oneline
+   60  git status
+   61  git add .
+   62  ls
+   63  git staus
+   64  git status
+   65  clear
+   66  git status
+   67  git restore --staged
+   68  git commit -m "branch1 first commit."
+   69  git status
+   70  clear
+   71  git log --oneline
+   72  git checkout master
+   73  ls
+   74  git log --oneline
+   75  git checkout branch1
+   76  cat >secoondfile.sh
+   77  clear
+   78  ls
+   79  cat secoondfile.sh 
+   80  clear
+   81  cat secoondfile.sh 
+   82  clear
+   83  clear
+   84  clear
+   85  git checkout master
+   86  ls
+   87  git checkout master
+   88  git merge branch1
+   89  ls
+   90  git log --oneline
+   91  git status
+   92  git add .
+   93  git status
+   94  git commit -m "second file from branch1"
+   95  git log --oneline
+   96  history >test.txt
